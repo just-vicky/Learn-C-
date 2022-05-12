@@ -1,20 +1,27 @@
 #include <iostream>
 
-using namespace std;
 
+namespace square{
+  std::string name = "vicky";
+
+}
 int main(){
 
-  string phrase = "how are you";
+  std::string phrase = "how are you";
 
-  cout << phrase.length() << endl;
-  cout << phrase[2] << endl;
-  cout << phrase.find("are", 0) << endl;
-  cout << phrase.substr(3,2) << endl; //substr(index position , how many should be taken after the index position)
+  std::cout << phrase.length() << std::endl;
+  std::cout << phrase[2] << std::endl;
+  std::cout << phrase.find("are", 0) << std::endl;
+  std::cout << phrase.substr(3,2) << std::endl; //substr(index position , how many should be taken after the index position)
 
-  string name = "I am fine" ;
-  string nameId = name.substr(2, 5);
+  std::string name = "I am fine" ;
+  std::string nameId = name.substr(2, 5);
 
-  cout << nameId << endl;  
+  std::cout << nameId << square::name << std::endl; 
 
   return 0;
 }
+
+// a = [1, 2, 3, 4]
+// Enum.count(a)
+

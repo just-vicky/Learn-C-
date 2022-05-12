@@ -21,3 +21,8 @@ int main(){
 
   return 0;
 }
+
+
+// name ="vicky"
+// print "My name is !name!" // Interpolation = variable 
+// print "My name is" + name //concatination

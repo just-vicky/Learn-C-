@@ -33,9 +33,5 @@ int main(){
 
   std::cout<< "The answer is "<<ans<< std::endl;
   
-  
-
-
-
   return 0;
 }

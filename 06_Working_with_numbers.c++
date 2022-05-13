@@ -3,10 +3,7 @@
 
 int main(){
 
-  // std::cout<<  40 % 4; // % = modulus operator which provides the remainder
-  
-
-  
+  std::cout<<  40 % 4; // % = modulus operator which provides the remainder
   std::cout<< pow (2,3) << std::endl;//pow = power
   std::cout<< sqrt (128) << std::endl;//sqrt = square root
   std::cout<< round(2.6455 ) << std::endl;//round = rounding off

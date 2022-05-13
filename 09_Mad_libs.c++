@@ -15,7 +15,7 @@ std::cin>>object;
 
 std::cout<<"Roses are "<<name<<std::endl;
 std::cout<<noun<<" are blue"<<std::endl;
-std::cout<<"I love "<<object<<std::endl;
+std::cout<<"I love  "<<object<<std::endl;
 
 
   return 0;

@@ -7,6 +7,7 @@ int main(){
   // number[3] = 23;
 
   std::cout<<number[3];
+  std::cout<<number[1];
 
 
   return 0;

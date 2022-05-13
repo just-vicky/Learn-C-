@@ -4,7 +4,6 @@ int main(){
 
   // double decimal;
   
-
   // std::cout<< "Enter your decimal:";
   // std::cin >> decimal;
   // std::cout<<"you are "<<decimal<<" years old"<<std::endl;
